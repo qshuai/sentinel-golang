@@ -18,11 +18,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	cb "github.com/alibaba/sentinel-golang/core/circuitbreaker"
-	"github.com/alibaba/sentinel-golang/core/flow"
-	"github.com/alibaba/sentinel-golang/core/hotspot"
-	"github.com/alibaba/sentinel-golang/core/isolation"
-	"github.com/alibaba/sentinel-golang/core/system"
+	cb "github.com/qshuai/sentinel-golang/core/circuitbreaker"
+	"github.com/qshuai/sentinel-golang/core/flow"
+	"github.com/qshuai/sentinel-golang/core/hotspot"
+	"github.com/qshuai/sentinel-golang/core/isolation"
+	"github.com/qshuai/sentinel-golang/core/system"
 )
 
 func checkSrcComplianceJson(src []byte) (bool, error) {

@@ -15,9 +15,9 @@
 package system
 
 import (
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/core/stat"
-	"github.com/alibaba/sentinel-golang/core/system_metric"
+	"github.com/qshuai/sentinel-golang/core/base"
+	"github.com/qshuai/sentinel-golang/core/stat"
+	"github.com/qshuai/sentinel-golang/core/system_metric"
 )
 
 const (

@@ -21,11 +21,11 @@ import (
 	"math/rand"
 	"time"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/circuitbreaker"
-	"github.com/alibaba/sentinel-golang/core/config"
-	"github.com/alibaba/sentinel-golang/logging"
-	"github.com/alibaba/sentinel-golang/util"
+	sentinel "github.com/qshuai/sentinel-golang/api"
+	"github.com/qshuai/sentinel-golang/core/circuitbreaker"
+	"github.com/qshuai/sentinel-golang/core/config"
+	"github.com/qshuai/sentinel-golang/logging"
+	"github.com/qshuai/sentinel-golang/util"
 )
 
 type stateChangeTestListener struct {

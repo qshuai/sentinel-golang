@@ -19,13 +19,13 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/core/config"
-	"github.com/alibaba/sentinel-golang/core/stat"
-	sbase "github.com/alibaba/sentinel-golang/core/stat/base"
-	"github.com/alibaba/sentinel-golang/core/system_metric"
-	"github.com/alibaba/sentinel-golang/logging"
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/qshuai/sentinel-golang/core/base"
+	"github.com/qshuai/sentinel-golang/core/config"
+	"github.com/qshuai/sentinel-golang/core/stat"
+	sbase "github.com/qshuai/sentinel-golang/core/stat/base"
+	"github.com/qshuai/sentinel-golang/core/system_metric"
+	"github.com/qshuai/sentinel-golang/logging"
+	"github.com/qshuai/sentinel-golang/util"
 	"github.com/pkg/errors"
 )
 

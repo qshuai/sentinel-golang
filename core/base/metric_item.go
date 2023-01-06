@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/qshuai/sentinel-golang/util"
 )
 
 const metricPartSeparator = "|"

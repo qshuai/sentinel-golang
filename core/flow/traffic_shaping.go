@@ -15,8 +15,8 @@
 package flow
 
 import (
-	"github.com/alibaba/sentinel-golang/core/base"
-	metric_exporter "github.com/alibaba/sentinel-golang/exporter/metric"
+	"github.com/qshuai/sentinel-golang/core/base"
+	metric_exporter "github.com/qshuai/sentinel-golang/exporter/metric"
 )
 
 var (

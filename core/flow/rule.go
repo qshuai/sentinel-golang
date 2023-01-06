@@ -18,7 +18,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/qshuai/sentinel-golang/util"
 )
 
 // RelationStrategy indicates the flow control strategy based on the relation of invocations.

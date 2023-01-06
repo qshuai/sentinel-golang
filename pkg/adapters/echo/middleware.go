@@ -3,8 +3,8 @@ package echo
 import (
 	"net/http"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/base"
+	sentinel "github.com/qshuai/sentinel-golang/api"
+	"github.com/qshuai/sentinel-golang/core/base"
 	"github.com/labstack/echo/v4"
 )
 

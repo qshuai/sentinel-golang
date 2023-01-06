@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/core/flow"
+	"github.com/qshuai/sentinel-golang/core/base"
+	"github.com/qshuai/sentinel-golang/core/flow"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 )

@@ -17,7 +17,7 @@ package isolation
 import (
 	"testing"
 
-	"github.com/alibaba/sentinel-golang/logging"
+	"github.com/qshuai/sentinel-golang/logging"
 	"github.com/stretchr/testify/assert"
 )
 

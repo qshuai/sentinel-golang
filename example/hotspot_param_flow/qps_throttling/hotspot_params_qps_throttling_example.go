@@ -18,10 +18,10 @@ import (
 	"log"
 	"math/rand"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/config"
-	"github.com/alibaba/sentinel-golang/core/hotspot"
-	"github.com/alibaba/sentinel-golang/logging"
+	sentinel "github.com/qshuai/sentinel-golang/api"
+	"github.com/qshuai/sentinel-golang/core/config"
+	"github.com/qshuai/sentinel-golang/core/hotspot"
+	"github.com/qshuai/sentinel-golang/logging"
 )
 
 type fooStruct struct {

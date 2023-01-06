@@ -21,8 +21,8 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/alibaba/sentinel-golang/logging"
-	"github.com/alibaba/sentinel-golang/util"
+	"github.com/qshuai/sentinel-golang/logging"
+	"github.com/qshuai/sentinel-golang/util"
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 )

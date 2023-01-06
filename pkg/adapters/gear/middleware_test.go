@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/flow"
+	sentinel "github.com/qshuai/sentinel-golang/api"
+	"github.com/qshuai/sentinel-golang/core/flow"
 	"github.com/stretchr/testify/assert"
 	"github.com/teambition/gear"
 )

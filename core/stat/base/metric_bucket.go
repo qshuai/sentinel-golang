@@ -17,8 +17,8 @@ package base
 import (
 	"sync/atomic"
 
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/logging"
+	"github.com/qshuai/sentinel-golang/core/base"
+	"github.com/qshuai/sentinel-golang/logging"
 	"github.com/pkg/errors"
 )
 

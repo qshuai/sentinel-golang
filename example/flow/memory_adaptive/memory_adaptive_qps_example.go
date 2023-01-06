@@ -19,12 +19,12 @@ import (
 	"math/rand"
 	"time"
 
-	sentinel "github.com/alibaba/sentinel-golang/api"
-	"github.com/alibaba/sentinel-golang/core/base"
-	"github.com/alibaba/sentinel-golang/core/config"
-	"github.com/alibaba/sentinel-golang/core/flow"
-	"github.com/alibaba/sentinel-golang/core/system_metric"
-	"github.com/alibaba/sentinel-golang/logging"
+	sentinel "github.com/qshuai/sentinel-golang/api"
+	"github.com/qshuai/sentinel-golang/core/base"
+	"github.com/qshuai/sentinel-golang/core/config"
+	"github.com/qshuai/sentinel-golang/core/flow"
+	"github.com/qshuai/sentinel-golang/core/system_metric"
+	"github.com/qshuai/sentinel-golang/logging"
 )
 
 const resName = "example-memory-adaptive-qps-flow-resource"
