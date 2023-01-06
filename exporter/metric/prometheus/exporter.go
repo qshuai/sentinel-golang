@@ -28,7 +28,7 @@ var (
 )
 
 func init() {
-	registry = prometheus.NewRegistry()
+	registry = prometheus.DefaultRegisterer.(*prometheus.Registry)
 
 	h := promhttp.HandlerFor(registry, promhttp.HandlerOpts{})
 	httpHandler = promhttp.InstrumentMetricHandler(registry, h)
